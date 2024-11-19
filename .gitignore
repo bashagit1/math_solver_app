@@ -1,0 +1,22 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore .env file that contains sensitive API keys
+.env
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore logs
+*.log
+
+# Ignore local configuration files
+*.db
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
